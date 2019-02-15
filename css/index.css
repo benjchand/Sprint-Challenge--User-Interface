@@ -66,12 +66,42 @@ p {
     line-height: 1.4;
 }
 
+header nav a {
+    font-size: 14px;
+    text-decoration: none;
+    color: black;
+  }
+  
+header nav a:hover {
+    text-decoration: underline;
+  }
+
 .container {
     width: 800px;
     margin: 0 auto;
 }
 
-.top-content {
+.home-header {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    align-items: baseline;
+    margin: 20px 0 30px;
+}
+
+.home-nav {
+    display: flex;
+    width: 100%;
+    padding: 0 15px;
+    justify-content: space-around;
+    align-items: baseline;
+}
+
+.home-jumbo {
+    margin: 0 0 20px;
+}
+
+.home-top-content {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
@@ -79,29 +109,29 @@ p {
     border-bottom: 1px dashed black;
 }
 
-.top-content .text-container {
+.home-top-content .text-container {
     width: 48%;
     padding: 0 1%;
     padding-bottom: 20px;  
 }
 
-.middle-content {
+.home-middle-content {
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
 }
 
-.middle-content h2 {
+.home-middle-content h2 {
     padding: 0 2%;
     margin-bottom: 0;
 }
 
-.middle-content .boxes {
+.home-middle-content .boxes {
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
 }
 
-.middle-content .boxes .box {
+.home-middle-content .boxes .box {
     width: 12.5%;
     height: 100px;
     background: black;
@@ -112,17 +142,57 @@ p {
     justify-content: center;
 }
 
-.bottom-content {
+#Box-1 {
+    background: teal;
+}
+
+#Box-2 {
+    background: gold;
+}
+
+#Box-3 {
+    background: cadetblue;
+}
+
+#Box-4 {
+    background: coral;
+}
+
+#Box-5 {
+    background: crimson;
+}
+
+#Box-6 {
+    background: forestgreen;
+}
+
+#Box-7 {
+    background: darkorchid;
+}
+
+#Box-8 {
+    background: hotpink;
+}
+
+#Box-9 {
+    background: indigo;
+}
+
+#Box-10 {
+    background: dodgerblue;
+}
+
+.home-bottom-content {
     display: flex;
     margin: 0 2% 20px;
     justify-content: space-around;
 }
 
-.bottom-content .text-container {
+.home-bottom-content .text-container {
     padding-right: 4%;
 }
 
-.bottom-content .text-container:last-child {
+.home-bottom-content .text-container:last-child {
     padding-right: 0;
 }
 

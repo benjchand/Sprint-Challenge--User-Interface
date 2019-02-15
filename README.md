@@ -36,7 +36,11 @@ Edit this document to include your answers after each question. Make sure to lea
 
 2. Name two big differences between ```display: block;``` and ```display: inline;```.
 
+Block lines items vertically by creating a new line break, and takes up all horizontal space.  Inline orders items horizontally and does not create a new line break, and does not take all horizontal space.
+
 3. What are the 4 areas of the box model?
+
+Content, Padding, Border, Margin
 
 4. While using flexbox, what axis does the following property work on: ```align-items: center```?
 
