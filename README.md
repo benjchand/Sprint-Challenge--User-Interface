@@ -34,6 +34,8 @@ Edit this document to include your answers after each question. Make sure to lea
 
 1. If you were to describe semantic HTML to the next cohort of students, what would you say?
 
+It is the language and order of language that gives meaning to code and allows developers to understand one another.
+
 2. Name two big differences between `display: block;` and `display: inline;`.
 
 Block lines items vertically by creating a new line break, and takes up all horizontal space. Inline orders items horizontally and does not create a new line break, and does not take all horizontal space.
@@ -44,7 +46,11 @@ Content, Padding, Border, Margin
 
 4. While using flexbox, what axis does the following property work on: `align-items: center`?
 
+Cross-axis
+
 5. Explain why git is valuable to a team of developers.
+
+It allows developers to work on the same project concurrently while independent of one another without worrying about how their changes are impacting the work of others, overwriting what they are doing, getting in each other's way, etc.
 
 You are expected to be able to answer all these questions. Your responses contribute to your Sprint Challenge grade. Skipping this section _will_ prevent you from passing this challenge.
 
