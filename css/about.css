@@ -150,8 +150,13 @@ h5 {
 
 p {
   line-height: 1.4;
+  font-size: 100%;
 }
 
+.container-about-page {
+  width: 800px;
+  margin: 0 auto;
+}
 header nav a {
   font-size: 14px;
   text-decoration: none;
@@ -162,12 +167,7 @@ header nav a:hover {
   text-decoration: underline;
 }
 
-.container {
-  width: 800px;
-  margin: 0 auto;
-}
-
-.home-header {
+.about-header {
   display: flex;
   width: 100%;
   justify-content: space-between;
@@ -175,7 +175,7 @@ header nav a:hover {
   margin: 20px 0 30px;
 }
 
-.home-nav {
+.about-nav {
   display: flex;
   width: 100%;
   padding: 0 15px;
@@ -183,103 +183,44 @@ header nav a:hover {
   align-items: baseline;
 }
 
-.home-jumbo {
+.about-jumbo {
   margin: 0 0 20px;
 }
 
-.home-top-content {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
-  margin-bottom: 20px;
+.about-top-content {
+  margin-bottom: 30px;
+  padding: 0 20px 20px;
   border-bottom: 1px dashed black;
 }
 
-.home-top-content .text-container {
-  width: 48%;
-  padding: 0 1%;
-  padding-bottom: 20px;
-}
-
-.home-middle-content {
-  margin-bottom: 20px;
-  border-bottom: 1px dashed black;
-}
-
-.home-middle-content h2 {
-  padding: 0 2%;
-  margin-bottom: 0;
-}
-
-.home-middle-content .boxes {
+.about-middle-content {
   display: flex;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
-}
-
-.home-middle-content .boxes .box {
-  width: 12.5%;
-  height: 100px;
-  background: black;
-  margin: 20px 2.5%;
-  color: white;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-#Box-1 {
-  background: teal;
-}
-
-#Box-2 {
-  background: gold;
-}
-
-#Box-3 {
-  background: cadetblue;
-}
-
-#Box-4 {
-  background: coral;
-}
-
-#Box-5 {
-  background: crimson;
-}
-
-#Box-6 {
-  background: forestgreen;
-}
-
-#Box-7 {
-  background: darkorchid;
-}
-
-#Box-8 {
-  background: hotpink;
-}
-
-#Box-9 {
-  background: indigo;
-}
-
-#Box-10 {
-  background: dodgerblue;
-}
-
-.home-bottom-content {
-  display: flex;
-  margin: 0 2% 20px;
   justify-content: space-around;
+  flex-wrap: wrap;
 }
 
-.home-bottom-content .text-container {
-  padding-right: 4%;
+.about-middle-text-container {
+  width: 46%;
+  border-bottom: 1px dashed black;
+  margin-bottom: 20px;
 }
 
-.home-bottom-content .text-container:last-child {
-  padding-right: 0;
+.about-middle-image {
+  margin-bottom: 10px;
+}
+
+.button-learn-more {
+  padding: 10px 25px;
+  font-size: 100%;
+  margin: 20px 0;
+  border: 2px solid black;
+  border-radius: 12px;
+  cursor: pointer;
+}
+
+.about-bottom-content {
+  margin-bottom: 30px;
+  padding: 30px 20px 20px;
 }
 
 footer {

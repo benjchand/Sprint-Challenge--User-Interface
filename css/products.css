@@ -162,12 +162,12 @@ header nav a:hover {
   text-decoration: underline;
 }
 
-.container {
+.container-products-page {
   width: 800px;
   margin: 0 auto;
 }
 
-.home-header {
+.products-header {
   display: flex;
   width: 100%;
   justify-content: space-between;
@@ -175,7 +175,7 @@ header nav a:hover {
   margin: 20px 0 30px;
 }
 
-.home-nav {
+.products-nav {
   display: flex;
   width: 100%;
   padding: 0 15px;
@@ -183,11 +183,11 @@ header nav a:hover {
   align-items: baseline;
 }
 
-.home-jumbo {
+.products-jumbo {
   margin: 0 0 20px;
 }
 
-.home-top-content {
+.products-top-content {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
@@ -195,108 +195,30 @@ header nav a:hover {
   border-bottom: 1px dashed black;
 }
 
-.home-top-content .text-container {
-  width: 48%;
+.products-top-content .text-container {
+  width: 33%;
   padding: 0 1%;
   padding-bottom: 20px;
 }
 
-.home-middle-content {
-  margin-bottom: 20px;
-  border-bottom: 1px dashed black;
-}
 
-.home-middle-content h2 {
-  padding: 0 2%;
-  margin-bottom: 0;
-}
 
-.home-middle-content .boxes {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-evenly;
-}
-
-.home-middle-content .boxes .box {
-  width: 12.5%;
-  height: 100px;
-  background: black;
-  margin: 20px 2.5%;
-  color: white;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
-#Box-1 {
-  background: teal;
-}
-
-#Box-2 {
-  background: gold;
-}
-
-#Box-3 {
-  background: cadetblue;
-}
-
-#Box-4 {
-  background: coral;
-}
-
-#Box-5 {
-  background: crimson;
-}
-
-#Box-6 {
-  background: forestgreen;
-}
-
-#Box-7 {
-  background: darkorchid;
-}
-
-#Box-8 {
-  background: hotpink;
-}
-
-#Box-9 {
-  background: indigo;
-}
-
-#Box-10 {
-  background: dodgerblue;
-}
-
-.home-bottom-content {
-  display: flex;
-  margin: 0 2% 20px;
-  justify-content: space-around;
-}
-
-.home-bottom-content .text-container {
-  padding-right: 4%;
-}
-
-.home-bottom-content .text-container:last-child {
-  padding-right: 0;
-}
 
 footer {
-  width: 100%;
-  background: black;
-}
-
-footer nav {
-  width: 60%;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 20px 2%;
-  font-size: 14px;
-}
-
-footer nav a {
-  color: white;
-  text-decoration: none;
-}
+    width: 100%;
+    background: black;
+  }
+  
+  footer nav {
+    width: 60%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px 2%;
+    font-size: 14px;
+  }
+  
+  footer nav a {
+    color: white;
+    text-decoration: none;
+  }
