@@ -71,6 +71,34 @@ p {
     margin: 0 auto;
 }
 
+.nav-section {
+    padding-top: 15px;
+}
+
+.nav-section nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-end;
+    padding-right: 35px;
+    padding-bottom: 30px
+}
+
+.nav-link{
+    text-decoration: none;
+    color: gray; 
+    font-size: 14px;   
+}
+
+.nav-link:hover{
+    text-decoration: underline;
+    font-size: 16px;
+    transition-duration: 200ms;
+}
+
+.nav-section {
+    padding-bottom: 35px;
+}
+
 .top-content {
     display: flex;
     flex-wrap: wrap;
@@ -85,9 +113,22 @@ p {
     padding-bottom: 20px;  
 }
 
+.top-content .text-container-about {
+    width: 97%;
+    padding: 0 1%;
+    padding-bottom: 20px;  
+}
+
 .middle-content {
     margin-bottom: 20px;
     border-bottom: 1px dashed black;
+}
+
+.about-middle-content {
+    margin-bottom: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .middle-content h2 {
@@ -110,6 +151,44 @@ p {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+#box-1 {
+    background-color: teal;
+}
+#box-2 {
+    background-color: gold;
+}
+#box-3 {
+    background-color: cadetblue;
+}
+#box-4 {
+    background-color: coral;
+}
+#box-5 {
+    background-color: crimson;
+}
+#box-6 {
+    background-color: forestgreen;
+}
+#box-7 {
+    background-color: darkorchid;
+}
+#box-8 {
+    background-color: hotpink;
+}
+#box-9 {
+    background-color: indigo;
+}
+#box-10 {
+    background-color: dodgerblue;
+}
+
+.about-middle-content .text-box-row-about {
+    width:97%;
+    display: flex;
+    justify-content: space-between;
+
 }
 
 .bottom-content {
@@ -145,4 +224,3 @@ footer nav a {
     text-decoration: none;
 }
 
-PICKLES!
